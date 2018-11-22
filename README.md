@@ -5,7 +5,7 @@
 
    Java [clique aqui](https://www.ibm.com/developerworks/br/java/tutorials/j-introtojava1/index.html) e entenda mais sobre.
     
-    ---
+---
 
 ### 02 - Orientação a Objetos
    - Leia [Os 4 pilares da Programação Orientada a Objetos](https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/9264)

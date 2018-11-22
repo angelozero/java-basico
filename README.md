@@ -300,8 +300,11 @@
 
 ### 13 - List, Arrays e Map
 - Leia o artigo (Java Collections: Set, List e Iterator)[https://www.devmedia.com.br/java-collections-set-list-e-iterator/29637]
+
 - Leia o artigo (Trabalhando com arrays em Java)[https://www.devmedia.com.br/trabalhando-com-arrays-em-java/25530]
+
 - Leia o artigo (Conhecendo a interface Map do Java)[https://www.devmedia.com.br/conhecendo-a-interface-map-do-java/37463]
+
 - [Código](https://github.com/angelozero/alura-java-basico/tree/master/12%20-%20Aula%20Java%20-%20Arrays%20List%20Conjutos%20e%20Mapas/src/br/com/angeloakm/listas)
 ```java
     /* --- ArrayList --- */

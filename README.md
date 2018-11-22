@@ -2,31 +2,37 @@
 
 ## Java básico
 ### 01 - Básico
-    Java [clique aqui](https://www.ibm.com/developerworks/br/java/tutorials/j-introtojava1/index.html) e entenda mais sobre.
+
+   Java [clique aqui](https://www.ibm.com/developerworks/br/java/tutorials/j-introtojava1/index.html) e entenda mais sobre.
     
     ---
 
 ### 02 - Orientação a Objetos
-     - Leia [Os 4 pilares da Programação Orientada a Objetos](https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/9264)
-        - Neste artigo você vai ver:
-            - Programação Estruturada vs Programação Orientada a Objetos
-            - Os 4 pilares da Programação Orientada a Objetos ( Abstração / Encapsulamento / Herança / Polimorfismo )
-            - Principais vantagens da POO
-            - Exemplos de Linguagens Orientadas a Objetos
-    - [Código](https://github.com/angelozero/alura-java-basico/tree/master/02%20-%20Aula%20Java%20-%20Orientacao%20a%20Objeto/src/br/com/angeloakm/poo/biblioteca)
+   - Leia [Os 4 pilares da Programação Orientada a Objetos](https://www.devmedia.com.br/os-4-pilares-da-programacao-orientada-a-objetos/9264)
+    
+- Neste artigo você vai ver:
+	- Programação Estruturada vs Programação Orientada a Objetos
+        - Os 4 pilares da Programação Orientada a Objetos ( Abstração / Encapsulamento / Herança / Polimorfismo )
+        - Principais vantagens da POO
+        - Exemplos de Linguagens Orientadas a Objetos
+    
+- [Código](https://github.com/angelozero/alura-java-basico/tree/master/02%20-%20Aula%20Java%20-%20Orientacao%20a%20Objeto/src/br/com/angeloakm/poo/biblioteca)
 
-    ```java
+ ```java
         Biblioteca biblioteca = new Biblioteca();
-    ```
+```
 
 ---
 
-- ###03 - Usando *args* no método *main - public static void main(String[] args)*
-    - O que é o método main ?
+### 03 - Usando *args* no método *main - public static void main(String[] args)*
+- O que é o método main ?
         - O método main é um método associado à classe e não a um objeto específico da classe, assim ele é definido como um método estático. Adicionalmente, deve ser um método público para permitir sua execução a partir da máquina virtual Java.
-        - [Info](http://www.dca.fee.unicamp.br/cursos/PooJava/classes/met_main.html)
+       
+     - [Info](http://www.dca.fee.unicamp.br/cursos/PooJava/classes/met_main.html)
+    
     - E o args declarado como parâmetro no método, o que significa ?
         - Leia o artigo [Entendendo o parâmetro string args em Java](https://www.devmedia.com.br/entendendo-o-parametro-string-args-em-java/29245)
+	
     - [Código](https://github.com/angelozero/alura-java-basico/blob/master/03%20-%20Aula%20Java%20-%20Metodos%20com%20Vargs%20e%20Objs/src/br/com/angeloakm/javabasico/vargs/Main.java)
 
     ```java
@@ -45,7 +51,7 @@
 ---
 
 ### 04 - Construtores
-    - O construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno -- nem mesmo void. O construtor é unicamente invocado no momento da criação do objeto através do operador new. O retorno do operador new é uma referência para o objeto recém-criado.
+ - O construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno -- nem mesmo void. O construtor é unicamente invocado no momento da criação do objeto através do operador new. O retorno do operador new é uma referência para o objeto recém-criado.
     
     -[Info](http://www.dca.fee.unicamp.br/cursos/PooJava/metodos/construtor.html)
     
@@ -58,8 +64,8 @@
 ---
 
 
-- ###05 - Elementos Estaticos
-    - Usualmente, métodos definidos em uma classe são aplicados a objetos daquela classe. Há no entanto situações nas quais um método pode fazer uso apenas dos recursos de uma classe (e não das informaões associadas a cada objeto individualmente) para realizar sua tarefa.
+ ### 05 - Elementos Estaticos
+ - Usualmente, métodos definidos em uma classe são aplicados a objetos daquela classe. Há no entanto situações nas quais um método pode fazer uso apenas dos recursos de uma classe (e não das informaões associadas a cada objeto individualmente) para realizar sua tarefa.
     - [Info](http://www.dca.fee.unicamp.br/cursos/PooJava/classes/metclas.html)
     - [Código](https://github.com/angelozero/alura-java-basico/tree/master/05%20-%20Aula%20Java%20-%20Elementos%20Estaticos/src/br/com/angeloakm/elementos/estaticos)
 
@@ -82,7 +88,7 @@
     ---
 
 ### 06 - Herança
-    - Leia o artigo [Entendendo e Aplicando Herança em Java](https://www.devmedia.com.br/entendendo-e-aplicando-heranca-em-java/24544)
+ - Leia o artigo [Entendendo e Aplicando Herança em Java](https://www.devmedia.com.br/entendendo-e-aplicando-heranca-em-java/24544)
     - [Código](https://github.com/angelozero/alura-java-basico/tree/master/06%20-%20Aula%20Java%20-%20Heranca/src/br/com/angeloakm/heranca)
     ```java
         //Classe pai
@@ -116,7 +122,7 @@
 ---
 
 ### 07 - Polimorfismo
-    - Leia o artigo [Uso de Polimorfismo em Java](https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140)
+ - Leia o artigo [Uso de Polimorfismo em Java](https://www.devmedia.com.br/uso-de-polimorfismo-em-java/26140)
     - [Código](https://github.com/angelozero/alura-java-basico/tree/master/06%20-%20Aula%20Java%20-%20Polimorfismo/src/br/com/angeloakm/polimorfismo)
     ```java
         Animal cao = new Cachorro();
@@ -126,7 +132,7 @@
 ---
 
 ### 08 - Classes Abstratas
-    - Para este artigo tenho um projeto focado apenas em Interfaces e Classes Abstratas, acesse o projeto [interfaces-classes-abstratas](https://github.com/angelozero/java-interfaces-classe-abstratas)
+ - Para este artigo tenho um projeto focado apenas em Interfaces e Classes Abstratas, acesse o projeto [interfaces-classes-abstratas](https://github.com/angelozero/java-interfaces-classe-abstratas)
     - Leia o artigo [Conceitos – Classes Abstratas: Programação Orientada a Objetos](https://www.devmedia.com.br/conceitos-classes-abstratas-programacao-orientada-a-objetos/18812)
     - [Código](https://github.com/angelozero/alura-java-basico/tree/master/07%20-%20Aula%20Java%20-%20Classes%20Abstratas/src/br/com/angeloakm/classe/abstrata)
     ```java
@@ -160,11 +166,16 @@
 ---
 
 ### 09 - Interfaces
-    - Para este artigo tenho um projeto focado apenas em Interfaces e Classes Abstratas, acesse o projeto [interfaces-classes-abstratas](https://github.com/angelozero/java-interfaces-classe-abstratas)
-    - Leia o artigo [Entendendo interfaces em Java](https://www.devmedia.com.br/entendendo-interfaces-em-java/25502)
-    - [Código](https://github.com/angelozero/alura-java-basico/tree/master/07%20-%20Aula%20Java%20-%20Interfaces/src/br/com/angeloakm/interfaces)
-    - Código básico mostrando uma funcionalidade de uma interface. Interface seria uma espécie de contrato, nesse trecho de código é simulado uma autenticação em dois bancos diferentes aonde ambos necessitam apenas de usuário e senha. Eu posso mudar de banco quantas vezes eu quiser, sem a necessidade de ficar alterando meu código toda vez que o banco for alterado.
-    ```java
+ - Para este artigo tenho um projeto focado apenas em Interfaces e Classes Abstratas, acesse o projeto [interfaces-classes-abstratas](https://github.com/angelozero/java-interfaces-classe-abstratas)
+  
+  - Leia o artigo [Entendendo interfaces em Java](https://www.devmedia.com.br/entendendo-interfaces-em-java/25502)
+  
+  - [Código](https://github.com/angelozero/alura-java-basico/tree/master/07%20-%20Aula%20Java%20-%20Interfaces/src/br/com/angeloakm/interfaces)
+  
+  - Código básico mostrando uma funcionalidade de uma interface. Interface seria uma espécie de contrato, nesse trecho de código é simulado uma autenticação em dois bancos diferentes aonde ambos necessitam apenas de usuário e senha. Eu posso mudar de banco quantas vezes eu quiser, sem a necessidade de ficar alterando meu código toda vez que o banco for alterado.
+  
+  
+```java
     public interface Autenticador {
 
 	    public boolean autenticar(String user, String pswrd);
@@ -207,14 +218,14 @@
 		else
 			System.out.println("Usuario nao autenticado");
 	}
-
-    ```
+ ```
 
 ---
 
-### 10 - Exceções
-    - Leia o artigo [Tratando exceções em Java](https://www.devmedia.com.br/tratando-excecoes-em-java/25514)
-    - [Código](https://github.com/angelozero/alura-java-basico/tree/master/08%20-%20Aula%20Java%20-%20Excecoes/src/br/com/angeloakm/excecoes)
+ ### 10 - Exceções
+ - Leia o artigo [Tratando exceções em Java](https://www.devmedia.com.br/tratando-excecoes-em-java/25514)
+ 
+ - [Código](https://github.com/angelozero/alura-java-basico/tree/master/08%20-%20Aula%20Java%20-%20Excecoes/src/br/com/angeloakm/excecoes)
     ```java
         public class TesteException extends Exception {
 
@@ -249,8 +260,9 @@
 
     ```
 ### 11 - Enums Wrappers e Autoboxing
-    - Leia o artigo [Enums no Java](https://www.devmedia.com.br/enums-no-java/38764)
-    - [Código](https://github.com/angelozero/alura-java-basico/tree/master/10%20-%20Aula%20Java%20-%20Enums%20Wrappers%20e%20Autoboxing/src/br/com/angeloakm)
+ - Leia o artigo [Enums no Java](https://www.devmedia.com.br/enums-no-java/38764)
+ 
+ - [Código](https://github.com/angelozero/alura-java-basico/tree/master/10%20-%20Aula%20Java%20-%20Enums%20Wrappers%20e%20Autoboxing/src/br/com/angeloakm)
     ```java
         public enum Sexo {
 
@@ -271,9 +283,9 @@
 ---
 
 ### 12 - Anotações em java
-    - Leia o artigo (Entendendo Anotações em Java)[https://www.devmedia.com.br/entendendo-anotacoes-em-java/26772]
-    - Leia o artigo (Como criar Anotações em Java)[https://www.devmedia.com.br/como-criar-anotacoes-em-java/32461]
-    - Leia o artigo (Criando anotações no Java)[http://blog.alura.com.br/criando-anotacoes-no-java/]
+ - Leia o artigo (Entendendo Anotações em Java)[https://www.devmedia.com.br/entendendo-anotacoes-em-java/26772]
+ - Leia o artigo (Como criar Anotações em Java)[https://www.devmedia.com.br/como-criar-anotacoes-em-java/32461]
+ - Leia o artigo (Criando anotações no Java)[http://blog.alura.com.br/criando-anotacoes-no-java/]
     
     ```java
     
@@ -334,7 +346,7 @@
 ---
 
 ### 14 - Reflection
-    - Leia o artigo[Conhecendo Java Reflection](https://www.devmedia.com.br/conhecendo-java-reflection/29148)
+ - Leia o artigo[Conhecendo Java Reflection](https://www.devmedia.com.br/conhecendo-java-reflection/29148)
     - [Código](https://github.com/angelozero/alura-java-basico/tree/master/14%20-%20Aula%20Java%20-%20Reflection/src/br/com/angeloakm/reflection)
     ```java
     public class Mapeador {
